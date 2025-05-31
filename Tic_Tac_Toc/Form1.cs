@@ -128,8 +128,8 @@ namespace Tic_Tac_Toc
                 btnTres.BackColor = Color.Green;
 
                 MessageBox.Show("Player 0 Wins!", "Tic Tac Toc", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                plusOne = Convert.ToInt32(lblPlayerX.Text);
-                lblPlayerX.Text = Convert.ToString(plusOne + 1);
+                plusOne = Convert.ToInt32(lblPlayerO.Text);
+                lblPlayerO.Text = Convert.ToString(plusOne + 1);
                 Enable_False();
             }
 
@@ -140,8 +140,8 @@ namespace Tic_Tac_Toc
                 btnSiete.BackColor = Color.Green;
 
                 MessageBox.Show("Player 0 Wins!", "Tic Tac Toc", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                plusOne = Convert.ToInt32(lblPlayerX.Text);
-                lblPlayerX.Text = Convert.ToString(plusOne + 1);
+                plusOne = Convert.ToInt32(lblPlayerO.Text);
+                lblPlayerO.Text = Convert.ToString(plusOne + 1);
                 Enable_False();
             }
 
@@ -152,8 +152,8 @@ namespace Tic_Tac_Toc
                 btnNueve.BackColor = Color.Green;
 
                 MessageBox.Show("Player 0 Wins!", "Tic Tac Toc", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                plusOne = Convert.ToInt32(lblPlayerX.Text);
-                lblPlayerX.Text = Convert.ToString(plusOne + 1);
+                plusOne = Convert.ToInt32(lblPlayerO.Text);
+                lblPlayerO.Text = Convert.ToString(plusOne + 1);
                 Enable_False();
             }
 
@@ -164,8 +164,8 @@ namespace Tic_Tac_Toc
                 btnOcho.BackColor = Color.Green;
 
                 MessageBox.Show("Player 0 Wins!", "Tic Tac Toc", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                plusOne = Convert.ToInt32(lblPlayerX.Text);
-                lblPlayerX.Text = Convert.ToString(plusOne + 1);
+                plusOne = Convert.ToInt32(lblPlayerO.Text);
+                lblPlayerO.Text = Convert.ToString(plusOne + 1);
                 Enable_False();
             }
 
@@ -176,8 +176,8 @@ namespace Tic_Tac_Toc
                 btnNueve.BackColor = Color.Green;
 
                 MessageBox.Show("Player 0 Wins!", "Tic Tac Toc", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                plusOne = Convert.ToInt32(lblPlayerX.Text);
-                lblPlayerX.Text = Convert.ToString(plusOne + 1);
+                plusOne = Convert.ToInt32(lblPlayerO.Text);
+                lblPlayerO.Text = Convert.ToString(plusOne + 1);
                 Enable_False();
             }
 
@@ -188,8 +188,8 @@ namespace Tic_Tac_Toc
                 btnSeis.BackColor = Color.Green;
 
                 MessageBox.Show("Player 0 Wins!", "Tic Tac Toc", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                plusOne = Convert.ToInt32(lblPlayerX.Text);
-                lblPlayerX.Text = Convert.ToString(plusOne + 1);
+                plusOne = Convert.ToInt32(lblPlayerO.Text);
+                lblPlayerO.Text = Convert.ToString(plusOne + 1);
                 Enable_False();
             }
 
@@ -200,8 +200,8 @@ namespace Tic_Tac_Toc
                 btnNueve.BackColor = Color.Green;
 
                 MessageBox.Show("Player 0 Wins!", "Tic Tac Toc", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                plusOne = Convert.ToInt32(lblPlayerX.Text);
-                lblPlayerX.Text = Convert.ToString(plusOne + 1);
+                plusOne = Convert.ToInt32(lblPlayerO.Text);
+                lblPlayerO.Text = Convert.ToString(plusOne + 1);
                 Enable_False();
             }
 
@@ -212,8 +212,8 @@ namespace Tic_Tac_Toc
                 btnSiete.BackColor = Color.Green;
 
                 MessageBox.Show("Player 0 Wins!", "Tic Tac Toc", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                plusOne = Convert.ToInt32(lblPlayerX.Text);
-                lblPlayerX.Text = Convert.ToString(plusOne + 1);
+                plusOne = Convert.ToInt32(lblPlayerO.Text);
+                lblPlayerO.Text = Convert.ToString(plusOne + 1);
                 Enable_False();
             }
 
@@ -392,9 +392,6 @@ namespace Tic_Tac_Toc
             btnNueve.Text = "";
 
             btnNuevo.Enabled = true; 
-
-            //lblPlayerO.Text = "0";
-            //lblPlayerX.Text = "0";
 
             btnUno.BackColor = Color.White;
             btnDos.BackColor = Color.White;

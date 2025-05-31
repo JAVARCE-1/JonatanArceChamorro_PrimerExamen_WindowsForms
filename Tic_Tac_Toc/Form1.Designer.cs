@@ -32,6 +32,8 @@
             label2 = new Label();
             label1 = new Label();
             panel2 = new Panel();
+            lblPlayerO = new Label();
+            lblPlayerX = new Label();
             label4 = new Label();
             label3 = new Label();
             panel3 = new Panel();
@@ -48,8 +50,6 @@
             btnTres = new Button();
             btnDos = new Button();
             btnUno = new Button();
-            lblPlayerX = new Label();
-            lblPlayerO = new Label();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             panel3.SuspendLayout();
@@ -98,6 +98,28 @@
             panel2.Name = "panel2";
             panel2.Size = new Size(435, 125);
             panel2.TabIndex = 1;
+            // 
+            // lblPlayerO
+            // 
+            lblPlayerO.AutoSize = true;
+            lblPlayerO.BackColor = SystemColors.HighlightText;
+            lblPlayerO.Font = new Font("Microsoft Sans Serif", 19.8000011F);
+            lblPlayerO.Location = new Point(203, 64);
+            lblPlayerO.Name = "lblPlayerO";
+            lblPlayerO.Size = new Size(36, 39);
+            lblPlayerO.TabIndex = 5;
+            lblPlayerO.Text = "0";
+            // 
+            // lblPlayerX
+            // 
+            lblPlayerX.AutoSize = true;
+            lblPlayerX.BackColor = SystemColors.HighlightText;
+            lblPlayerX.Font = new Font("Microsoft Sans Serif", 19.8000011F);
+            lblPlayerX.Location = new Point(203, 15);
+            lblPlayerX.Name = "lblPlayerX";
+            lblPlayerX.Size = new Size(36, 39);
+            lblPlayerX.TabIndex = 4;
+            lblPlayerX.Text = "0";
             // 
             // label4
             // 
@@ -192,7 +214,6 @@
             btnNueve.Name = "btnNueve";
             btnNueve.Size = new Size(131, 99);
             btnNueve.TabIndex = 8;
-            btnNueve.Text = "button9";
             btnNueve.UseVisualStyleBackColor = false;
             btnNueve.Click += btnNueve_Click;
             // 
@@ -203,7 +224,6 @@
             btnOcho.Name = "btnOcho";
             btnOcho.Size = new Size(131, 99);
             btnOcho.TabIndex = 7;
-            btnOcho.Text = "button8";
             btnOcho.UseVisualStyleBackColor = false;
             btnOcho.Click += btnOcho_Click;
             // 
@@ -214,7 +234,6 @@
             btnSiete.Name = "btnSiete";
             btnSiete.Size = new Size(131, 99);
             btnSiete.TabIndex = 6;
-            btnSiete.Text = "button7";
             btnSiete.UseVisualStyleBackColor = false;
             btnSiete.Click += btnSiete_Click;
             // 
@@ -225,7 +244,6 @@
             btnSeis.Name = "btnSeis";
             btnSeis.Size = new Size(131, 99);
             btnSeis.TabIndex = 5;
-            btnSeis.Text = "button6";
             btnSeis.UseVisualStyleBackColor = false;
             btnSeis.Click += btnSeis_Click;
             // 
@@ -236,7 +254,6 @@
             btnCinco.Name = "btnCinco";
             btnCinco.Size = new Size(131, 99);
             btnCinco.TabIndex = 4;
-            btnCinco.Text = "button5";
             btnCinco.UseVisualStyleBackColor = false;
             btnCinco.Click += btnCinco_Click;
             // 
@@ -247,7 +264,6 @@
             btnCuatro.Name = "btnCuatro";
             btnCuatro.Size = new Size(131, 99);
             btnCuatro.TabIndex = 3;
-            btnCuatro.Text = "button4";
             btnCuatro.UseVisualStyleBackColor = false;
             btnCuatro.Click += btnCuatro_Click;
             // 
@@ -258,7 +274,6 @@
             btnTres.Name = "btnTres";
             btnTres.Size = new Size(131, 99);
             btnTres.TabIndex = 2;
-            btnTres.Text = "button3";
             btnTres.UseVisualStyleBackColor = false;
             btnTres.Click += btnTres_Click;
             // 
@@ -269,7 +284,6 @@
             btnDos.Name = "btnDos";
             btnDos.Size = new Size(131, 99);
             btnDos.TabIndex = 1;
-            btnDos.Text = "button2";
             btnDos.UseVisualStyleBackColor = false;
             btnDos.Click += btnDos_Click;
             // 
@@ -280,31 +294,8 @@
             btnUno.Name = "btnUno";
             btnUno.Size = new Size(131, 99);
             btnUno.TabIndex = 0;
-            btnUno.Text = "button1";
             btnUno.UseVisualStyleBackColor = false;
             btnUno.Click += btnUno_Click;
-            // 
-            // lblPlayerX
-            // 
-            lblPlayerX.AutoSize = true;
-            lblPlayerX.BackColor = SystemColors.HighlightText;
-            lblPlayerX.Font = new Font("Microsoft Sans Serif", 19.8000011F);
-            lblPlayerX.Location = new Point(203, 15);
-            lblPlayerX.Name = "lblPlayerX";
-            lblPlayerX.Size = new Size(36, 39);
-            lblPlayerX.TabIndex = 4;
-            lblPlayerX.Text = "0";
-            // 
-            // lblPlayerO
-            // 
-            lblPlayerO.AutoSize = true;
-            lblPlayerO.BackColor = SystemColors.HighlightText;
-            lblPlayerO.Font = new Font("Microsoft Sans Serif", 19.8000011F);
-            lblPlayerO.Location = new Point(203, 64);
-            lblPlayerO.Name = "lblPlayerO";
-            lblPlayerO.Size = new Size(36, 39);
-            lblPlayerO.TabIndex = 5;
-            lblPlayerO.Text = "0";
             // 
             // Form1
             // 

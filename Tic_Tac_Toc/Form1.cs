@@ -227,12 +227,34 @@ namespace Tic_Tac_Toc
 
         private void btnUno_Click(object sender, EventArgs e)
         {
-
+            if (checker == false)
+            {
+                btnUno.Text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnUno.Text = "0";
+                checker = false;
+            }
+            Score();
+            btnUno.Enabled = false;
         }
 
         private void btnDos_Click(object sender, EventArgs e)
         {
-
+            if (checker == false)
+            {
+                btnDos.Text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnDos.Text = "0";
+                checker = false;
+            }
+            Score();
+            btnDos.Enabled = false;
         }
 
         private void btnTres_Click(object sender, EventArgs e)
@@ -242,32 +264,98 @@ namespace Tic_Tac_Toc
 
         private void btnCuatro_Click(object sender, EventArgs e)
         {
-
+            if (checker == false)
+            {
+                btnCuatro.Text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnCuatro.Text = "0";
+                checker = false;
+            }
+            Score();
+            btnCuatro.Enabled = false;
         }
 
         private void btnCinco_Click(object sender, EventArgs e)
         {
-
+            if (checker == false)
+            {
+                btnCinco.Text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnCinco.Text = "0";
+                checker = false;
+            }
+            Score();
+            btnCinco.Enabled = false;
         }
 
         private void btnSeis_Click(object sender, EventArgs e)
         {
-
+            if (checker == false)
+            {
+                btnSeis.Text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnSeis.Text = "0";
+                checker = false;
+            }
+            Score();
+            btnSeis.Enabled = false;
         }
 
         private void btnSiete_Click(object sender, EventArgs e)
         {
-
+            if (checker == false)
+            {
+                btnSiete.Text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnSiete.Text = "0";
+                checker = false;
+            }
+            Score();
+            btnSiete.Enabled = false;
         }
 
         private void btnOcho_Click(object sender, EventArgs e)
         {
-
+            if (checker == false)
+            {
+                btnOcho.Text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnOcho.Text = "0";
+                checker = false;
+            }
+            Score();
+            btnOcho.Enabled = false;
         }
 
         private void btnNueve_Click(object sender, EventArgs e)
         {
-
+            if (checker == false)
+            {
+                btnNueve.Text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnNueve.Text = "0";
+                checker = false;
+            }
+            Score();
+            btnNueve.Enabled = false;
         }
 
         private void btnReset_Click(object sender, EventArgs e)

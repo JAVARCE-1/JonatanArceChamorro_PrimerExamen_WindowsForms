@@ -32,8 +32,6 @@
             label2 = new Label();
             label1 = new Label();
             panel2 = new Panel();
-            txtPlayer0 = new TextBox();
-            txtPlayerX = new TextBox();
             label4 = new Label();
             label3 = new Label();
             panel3 = new Panel();
@@ -50,6 +48,8 @@
             btnTres = new Button();
             btnDos = new Button();
             btnUno = new Button();
+            lblPlayerX = new Label();
+            lblPlayerO = new Label();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             panel3.SuspendLayout();
@@ -90,8 +90,8 @@
             // panel2
             // 
             panel2.BorderStyle = BorderStyle.Fixed3D;
-            panel2.Controls.Add(txtPlayer0);
-            panel2.Controls.Add(txtPlayerX);
+            panel2.Controls.Add(lblPlayerO);
+            panel2.Controls.Add(lblPlayerX);
             panel2.Controls.Add(label4);
             panel2.Controls.Add(label3);
             panel2.Location = new Point(427, 143);
@@ -99,45 +99,25 @@
             panel2.Size = new Size(435, 125);
             panel2.TabIndex = 1;
             // 
-            // txtPlayer0
-            // 
-            txtPlayer0.Font = new Font("Segoe UI", 16.2F);
-            txtPlayer0.Location = new Point(220, 64);
-            txtPlayer0.Name = "txtPlayer0";
-            txtPlayer0.Size = new Size(56, 43);
-            txtPlayer0.TabIndex = 3;
-            txtPlayer0.Text = "0";
-            txtPlayer0.TextAlign = HorizontalAlignment.Center;
-            // 
-            // txtPlayerX
-            // 
-            txtPlayerX.Font = new Font("Segoe UI", 16.2F);
-            txtPlayerX.Location = new Point(220, 15);
-            txtPlayerX.Name = "txtPlayerX";
-            txtPlayerX.Size = new Size(56, 43);
-            txtPlayerX.TabIndex = 2;
-            txtPlayerX.Text = "0";
-            txtPlayerX.TextAlign = HorizontalAlignment.Center;
-            // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold);
+            label4.Font = new Font("Microsoft Sans Serif", 19.8000011F);
             label4.ForeColor = SystemColors.ButtonHighlight;
             label4.Location = new Point(39, 64);
             label4.Name = "label4";
-            label4.Size = new Size(130, 38);
+            label4.Size = new Size(151, 39);
             label4.TabIndex = 1;
             label4.Text = "Player 0:";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold);
+            label3.Font = new Font("Microsoft Sans Serif", 19.8000011F);
             label3.ForeColor = SystemColors.ButtonHighlight;
             label3.Location = new Point(39, 15);
             label3.Name = "label3";
-            label3.Size = new Size(132, 38);
+            label3.Size = new Size(155, 39);
             label3.TabIndex = 0;
             label3.Text = "Player X:";
             // 
@@ -304,6 +284,28 @@
             btnUno.UseVisualStyleBackColor = false;
             btnUno.Click += btnUno_Click;
             // 
+            // lblPlayerX
+            // 
+            lblPlayerX.AutoSize = true;
+            lblPlayerX.BackColor = SystemColors.HighlightText;
+            lblPlayerX.Font = new Font("Microsoft Sans Serif", 19.8000011F);
+            lblPlayerX.Location = new Point(203, 15);
+            lblPlayerX.Name = "lblPlayerX";
+            lblPlayerX.Size = new Size(36, 39);
+            lblPlayerX.TabIndex = 4;
+            lblPlayerX.Text = "0";
+            // 
+            // lblPlayerO
+            // 
+            lblPlayerO.AutoSize = true;
+            lblPlayerO.BackColor = SystemColors.HighlightText;
+            lblPlayerO.Font = new Font("Microsoft Sans Serif", 19.8000011F);
+            lblPlayerO.Location = new Point(203, 64);
+            lblPlayerO.Name = "lblPlayerO";
+            lblPlayerO.Size = new Size(36, 39);
+            lblPlayerO.TabIndex = 5;
+            lblPlayerO.Text = "0";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -347,7 +349,7 @@
         private Button btnTres;
         private Button btnDos;
         private Button btnUno;
-        private TextBox txtPlayer0;
-        private TextBox txtPlayerX;
+        private Label lblPlayerO;
+        private Label lblPlayerX;
     }
 }

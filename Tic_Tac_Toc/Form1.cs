@@ -376,7 +376,14 @@ namespace Tic_Tac_Toc
 
         private void btnExit_Click(object sender, EventArgs e)
         {
+            DialogResult iExit;
 
+            iExit = MessageBox.Show(
+                "Confirm if you want to exit?", "Tic Tac Toc", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (iExit == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
         }
 
         private void btnNewGame_Click(object sender, EventArgs e)

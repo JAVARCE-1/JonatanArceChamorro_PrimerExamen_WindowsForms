@@ -69,12 +69,14 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 25.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(4, 28);
+            label2.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.ForeColor = SystemColors.ButtonHighlight;
+            label2.Location = new Point(28, 28);
             label2.Name = "label2";
-            label2.Size = new Size(839, 60);
+            label2.Size = new Size(785, 54);
             label2.TabIndex = 1;
-            label2.Text = "JUEGO TIC TAC TOC - WINDOWS FORM";
+            label2.Text = "JUEGO TIC TAC TOC - WINDOWS FORMS";
+            label2.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label1
             // 
@@ -104,6 +106,8 @@
             txtPlayer0.Name = "txtPlayer0";
             txtPlayer0.Size = new Size(56, 43);
             txtPlayer0.TabIndex = 3;
+            txtPlayer0.Text = "0";
+            txtPlayer0.TextAlign = HorizontalAlignment.Center;
             // 
             // txtPlayerX
             // 
@@ -112,26 +116,30 @@
             txtPlayerX.Name = "txtPlayerX";
             txtPlayerX.Size = new Size(56, 43);
             txtPlayerX.TabIndex = 2;
+            txtPlayerX.Text = "0";
+            txtPlayerX.TextAlign = HorizontalAlignment.Center;
             // 
             // label4
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold);
-            label4.Location = new Point(24, 64);
+            label4.ForeColor = SystemColors.ButtonHighlight;
+            label4.Location = new Point(39, 64);
             label4.Name = "label4";
-            label4.Size = new Size(149, 38);
+            label4.Size = new Size(130, 38);
             label4.TabIndex = 1;
-            label4.Text = "PLAYER 0:";
+            label4.Text = "Player 0:";
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold);
-            label3.Location = new Point(24, 15);
+            label3.ForeColor = SystemColors.ButtonHighlight;
+            label3.Location = new Point(39, 15);
             label3.Name = "label3";
-            label3.Size = new Size(151, 38);
+            label3.Size = new Size(132, 38);
             label3.TabIndex = 0;
-            label3.Text = "PLAYER X:";
+            label3.Text = "Player X:";
             // 
             // panel3
             // 
@@ -146,33 +154,36 @@
             // 
             // btnExit
             // 
+            btnExit.BackColor = SystemColors.HighlightText;
             btnExit.Font = new Font("Segoe UI", 19.8000011F, FontStyle.Bold);
             btnExit.Location = new Point(221, 97);
             btnExit.Name = "btnExit";
             btnExit.Size = new Size(204, 82);
             btnExit.TabIndex = 2;
             btnExit.Text = "EXIT";
-            btnExit.UseVisualStyleBackColor = true;
+            btnExit.UseVisualStyleBackColor = false;
             // 
             // btnReset
             // 
+            btnReset.BackColor = SystemColors.HighlightText;
             btnReset.Font = new Font("Segoe UI", 19.8000011F, FontStyle.Bold);
             btnReset.Location = new Point(3, 97);
             btnReset.Name = "btnReset";
             btnReset.Size = new Size(204, 82);
             btnReset.TabIndex = 1;
             btnReset.Text = "RESET";
-            btnReset.UseVisualStyleBackColor = true;
+            btnReset.UseVisualStyleBackColor = false;
             // 
             // btnNuevo
             // 
+            btnNuevo.BackColor = SystemColors.HighlightText;
             btnNuevo.Font = new Font("Segoe UI", 19.8000011F, FontStyle.Bold);
             btnNuevo.Location = new Point(3, 9);
             btnNuevo.Name = "btnNuevo";
             btnNuevo.Size = new Size(422, 82);
             btnNuevo.TabIndex = 0;
             btnNuevo.Text = "NEW GAME";
-            btnNuevo.UseVisualStyleBackColor = true;
+            btnNuevo.UseVisualStyleBackColor = false;
             // 
             // panel4
             // 
@@ -193,89 +204,99 @@
             // 
             // btnNueve
             // 
+            btnNueve.BackColor = SystemColors.HighlightText;
             btnNueve.Location = new Point(275, 213);
             btnNueve.Name = "btnNueve";
             btnNueve.Size = new Size(131, 99);
             btnNueve.TabIndex = 8;
             btnNueve.Text = "button9";
-            btnNueve.UseVisualStyleBackColor = true;
+            btnNueve.UseVisualStyleBackColor = false;
             // 
             // btnOcho
             // 
+            btnOcho.BackColor = SystemColors.HighlightText;
             btnOcho.Location = new Point(140, 213);
             btnOcho.Name = "btnOcho";
             btnOcho.Size = new Size(131, 99);
             btnOcho.TabIndex = 7;
             btnOcho.Text = "button8";
-            btnOcho.UseVisualStyleBackColor = true;
+            btnOcho.UseVisualStyleBackColor = false;
             // 
             // btnSiete
             // 
+            btnSiete.BackColor = SystemColors.HighlightText;
             btnSiete.Location = new Point(5, 212);
             btnSiete.Name = "btnSiete";
             btnSiete.Size = new Size(131, 99);
             btnSiete.TabIndex = 6;
             btnSiete.Text = "button7";
-            btnSiete.UseVisualStyleBackColor = true;
+            btnSiete.UseVisualStyleBackColor = false;
             // 
             // btnSeis
             // 
+            btnSeis.BackColor = SystemColors.HighlightText;
             btnSeis.Location = new Point(275, 108);
             btnSeis.Name = "btnSeis";
             btnSeis.Size = new Size(131, 99);
             btnSeis.TabIndex = 5;
             btnSeis.Text = "button6";
-            btnSeis.UseVisualStyleBackColor = true;
+            btnSeis.UseVisualStyleBackColor = false;
             // 
             // btnCinco
             // 
+            btnCinco.BackColor = SystemColors.HighlightText;
             btnCinco.Location = new Point(140, 108);
             btnCinco.Name = "btnCinco";
             btnCinco.Size = new Size(131, 99);
             btnCinco.TabIndex = 4;
             btnCinco.Text = "button5";
-            btnCinco.UseVisualStyleBackColor = true;
+            btnCinco.UseVisualStyleBackColor = false;
             // 
             // btnCuatro
             // 
+            btnCuatro.BackColor = SystemColors.HighlightText;
             btnCuatro.Location = new Point(5, 108);
             btnCuatro.Name = "btnCuatro";
             btnCuatro.Size = new Size(131, 99);
             btnCuatro.TabIndex = 3;
             btnCuatro.Text = "button4";
-            btnCuatro.UseVisualStyleBackColor = true;
+            btnCuatro.UseVisualStyleBackColor = false;
             // 
             // btnTres
             // 
+            btnTres.BackColor = SystemColors.HighlightText;
             btnTres.Location = new Point(275, 4);
             btnTres.Name = "btnTres";
             btnTres.Size = new Size(131, 99);
             btnTres.TabIndex = 2;
             btnTres.Text = "button3";
-            btnTres.UseVisualStyleBackColor = true;
+            btnTres.UseVisualStyleBackColor = false;
             // 
             // btnDos
             // 
+            btnDos.BackColor = SystemColors.HighlightText;
             btnDos.Location = new Point(140, 4);
             btnDos.Name = "btnDos";
             btnDos.Size = new Size(131, 99);
             btnDos.TabIndex = 1;
             btnDos.Text = "button2";
-            btnDos.UseVisualStyleBackColor = true;
+            btnDos.UseVisualStyleBackColor = false;
             // 
             // btnUno
             // 
+            btnUno.BackColor = SystemColors.HighlightText;
             btnUno.Location = new Point(5, 4);
             btnUno.Name = "btnUno";
             btnUno.Size = new Size(131, 99);
             btnUno.TabIndex = 0;
             btnUno.Text = "button1";
-            btnUno.UseVisualStyleBackColor = true;
+            btnUno.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.MenuHighlight;
             ClientSize = new Size(872, 484);
             Controls.Add(panel4);
             Controls.Add(panel3);

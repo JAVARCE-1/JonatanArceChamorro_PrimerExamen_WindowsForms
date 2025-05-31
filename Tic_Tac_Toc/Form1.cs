@@ -371,7 +371,40 @@ namespace Tic_Tac_Toc
 
         private void btnReset_Click(object sender, EventArgs e)
         {
+            btnUno.Enabled = true;
+            btnDos.Enabled = true;
+            btnTres.Enabled = true;
+            btnCuatro.Enabled = true;
+            btnCinco.Enabled = true;
+            btnSeis.Enabled = true;
+            btnSiete.Enabled = true;
+            btnOcho.Enabled = true;
+            btnNueve.Enabled = true;
 
+            btnUno.Text = "";
+            btnDos.Text = "";
+            btnTres.Text = "";
+            btnCuatro.Text = "";
+            btnCinco.Text = "";
+            btnSeis.Text = "";
+            btnSiete.Text = "";
+            btnOcho.Text = "";
+            btnNueve.Text = "";
+
+            btnNuevo.Enabled = true; 
+
+            //lblPlayerO.Text = "0";
+            //lblPlayerX.Text = "0";
+
+            btnUno.BackColor = Color.White;
+            btnDos.BackColor = Color.White;
+            btnTres.BackColor = Color.White;
+            btnCuatro.BackColor = Color.White;
+            btnCinco.BackColor = Color.White;
+            btnSeis.BackColor = Color.White;
+            btnSiete.BackColor = Color.White;
+            btnOcho.BackColor = Color.White;
+            btnNueve.BackColor = Color.White;
         }
 
         private void btnExit_Click(object sender, EventArgs e)

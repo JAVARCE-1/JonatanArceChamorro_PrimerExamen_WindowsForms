@@ -259,7 +259,18 @@ namespace Tic_Tac_Toc
 
         private void btnTres_Click(object sender, EventArgs e)
         {
-
+            if (checker == false)
+            {
+                btnTres.Text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnTres.Text = "0";
+                checker = false;
+            }
+            Score();
+            btnTres.Enabled = false;
         }
 
         private void btnCuatro_Click(object sender, EventArgs e)
@@ -370,6 +381,38 @@ namespace Tic_Tac_Toc
 
         private void btnNewGame_Click(object sender, EventArgs e)
         {
+            btnUno.Enabled = true;
+            btnDos.Enabled = true;
+            btnTres.Enabled = true;
+            btnCuatro.Enabled = true;
+            btnCinco.Enabled = true;
+            btnSeis.Enabled = true;
+            btnSiete.Enabled = true;
+            btnOcho.Enabled = true;
+            btnNueve.Enabled = true;
+
+            btnUno.Text = "";
+            btnDos.Text = "";
+            btnTres.Text = "";
+            btnCuatro.Text = "";
+            btnCinco.Text = "";
+            btnSeis.Text = "";
+            btnSiete.Text = "";
+            btnOcho.Text = "";
+            btnNueve.Text = "";
+
+            lblPlayerO.Text = "0";
+            lblPlayerX.Text = "0";
+
+            btnUno.BackColor = Color.White;
+            btnDos.BackColor = Color.White;
+            btnTres.BackColor = Color.White;
+            btnCuatro.BackColor = Color.White;
+            btnCinco.BackColor = Color.White;
+            btnSeis.BackColor = Color.White;
+            btnSiete.BackColor = Color.White;
+            btnOcho.BackColor = Color.White;
+            btnNueve.BackColor = Color.White;
 
         }
     }
